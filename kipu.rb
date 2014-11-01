@@ -1,11 +1,7 @@
 require "rubygems"
 require 'sinatra'
 require 'json'
-require 'active_record'
-require 'data_mapper'
-DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
-ActiveRecord::Base.establish_connection(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
 
 

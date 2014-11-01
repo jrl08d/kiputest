@@ -1,2 +1,2 @@
-require './kipu.rb'
+require './kipu'
 run Sinatra::Application
